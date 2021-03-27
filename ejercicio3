@@ -1,4 +1,4 @@
-x=int(input("ingrese numero 1 "))
-y=int(input("ingrese numero 2 "))
+x=int(input("ingrese primer numero "))
+y=int(input("ingrese segundo numero "))
 s=x+y
 print(s)
