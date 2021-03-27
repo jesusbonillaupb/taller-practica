@@ -1,0 +1,17 @@
+n1=int(input("ingrese el primer numero"))
+n2=int(input("ingrese el segundo numero"))
+s=n1+n2
+rest=n1-n2
+m=n1*n2
+d=n1/n2
+resi=n1%n2
+print("suma= ")
+print(s)
+print("resta= ")
+print(rest)
+print("multiplicacion= ")
+print(m)
+print("division= ")
+print(d)
+print("residuo= ")
+print(resi)
