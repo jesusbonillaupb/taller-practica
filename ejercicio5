@@ -1,0 +1,6 @@
+x=float(input("ingrese numero decimal "))
+e=int(x//1)
+d=int((x-e)*10)
+print("parte entera= ")
+print(e)
+print("parte decimal= ")
