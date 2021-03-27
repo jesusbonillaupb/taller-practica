@@ -1,0 +1,6 @@
+x=int(input("ingrese un numero "))
+c=x**2
+print("el cuadrado de ")
+print(x)
+print("es")
+print(c)
