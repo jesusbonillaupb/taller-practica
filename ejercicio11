@@ -1,0 +1,10 @@
+a= input("ingrese valor a ")
+b= input("ingrese valor b ")
+print("momento 1")
+print("a"+"=" + a)
+print("b"+"=" + b)
+print("momento 2")
+d=b
+b=a
+print("a"+"=" + d)
+print("b"+"=" + b)
