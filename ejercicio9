@@ -1,0 +1,9 @@
+l1=float(input("ingrese lado 1 "))
+l2=float(input("ingrese lado 2 "))
+l3=float(input("ingrese lado 3 "))
+l4=float(input("ingrese lado 4 "))
+l5=float(input("ingrese lado 5 "))
+l6=float(input("ingrese lado 6 "))
+p=l1+l2+l3+l4+l5+l6
+a=6*((p**2*(3**0.5))/4)
+print(a)
