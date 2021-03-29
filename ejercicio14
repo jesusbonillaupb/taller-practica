@@ -1,0 +1,9 @@
+#se asume que la velocidad se mide en m/s
+#la velocidad inicial es 0 asi que no se cuenta
+#el tiempo se mide en segundos (s)
+#la aceleracion se mide en metros por segundo al cuadrado(m/s**2)
+a=float(input("ingrese aceleracion "))
+t=float(input("ingrese el tiempo "))
+vf=a*t
+print("velocidad final= ")
+print(vf)
