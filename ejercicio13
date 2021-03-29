@@ -1,4 +1,4 @@
-#se asume que la velocidad es constante y se mide en m/s
+#se asume que la velocidad se mide en m/s
 #la distancia tambien se mide en metros(m)
 #el tiempo se mide en segundos (s)
 #la aceleracion se mide en metros por segundo al cuadrado(m/s**2)
