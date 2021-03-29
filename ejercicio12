@@ -1,0 +1,5 @@
+#La gravedad tomo valor de 9.8
+h=float(input("ingrese la altura "))
+t=((2*h)/9.8)**0.5
+print("demoro en caer= ")
+print(t) 
