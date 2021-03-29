@@ -1,0 +1,12 @@
+#se asume que la velocidad es constante y se mide en m/s
+#la distancia tambien se mide en metros(m)
+#el tiempo se mide en segundos (s)
+#la aceleracion se mide en metros por segundo al cuadrado(m/s**2)
+
+vo=float(input("ingrese velocidad inicial "))
+vf=float(input("ingrese velocidad final "))
+t=float(input("ingrese el tiempo que duro en recorrer "))
+a=(vf-vo)/t
+d=(vo*t)+((1/2)*(a*(t**2)))
+print("distancia (m) ")
+print(d)
