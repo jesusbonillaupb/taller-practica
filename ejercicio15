@@ -1,0 +1,5 @@
+m=float(input("ingrese la masa "))
+v=float(input("ingrese velocidad ")
+E=(1/2)*(m*(v**2))
+print("energia en Julios")
+print(E)
