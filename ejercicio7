@@ -1,9 +1,7 @@
-preciosiniva=int(input("ingrese el valor sin IVA"))
+preciosiniva=int(input("ingrese el valor sin IVA "))
 iva=preciosiniva*0.19
 precioconiva=(preciosiniva+iva)
-print("valor original= ")
-print(preciosiniva)
-print("VALOR IVA")
-print(iva)
-print("precio con IVA")
-print(precioconiva)
+print("valor original=", preciosiniva)
+print("valor del iva del producto=", iva)
+print("precio con IVA=", precioconiva)
+
