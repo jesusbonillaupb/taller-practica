@@ -1,6 +1,5 @@
-  
 segundos = int(input("ingrese una cantidad de segundos "))
-minuto = 3600
+minuto = 60
 cantidadminutos = (segundos/minuto)
 print(segundos , "segundos")
 print("equivalen a")
