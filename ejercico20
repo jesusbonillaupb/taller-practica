@@ -1,0 +1,36 @@
+# tenga en cuenta que existen billetes de 1mil/2mil/5mil/10mil/20mil/50mil/100mil
+# cuando la cantidad de dinero sea menor al valor de algun billete, la cantidad de estos billetes no se mostraran
+# lo anterior es asumiendo que se puede pagar con billetes de menor valor
+# PARAMETROS(si no se respetan pueden ocurrir inconsistencias)
+# debido a que pide la cantidad de billetes, los valores que se tomen se contaran los valores en miles (2mil, 3mil)
+# NO SE ACEPTARA NINGUN VALOR DECIMAL
+# no se acepta el valor 0 ni menores a 0
+cantidaddedinero = int(input("ingrese la cantidad de dinero en miles de pesos "))
+print("si no aparece alguna tipo de billete, significa que la cantidad de dinero vale menos que este")
+if cantidaddedinero==1:
+    print("cantidad de dinero=","mil pesos")
+else:
+    print("cantidad de dinero=", cantidaddedinero, "mil pesos")
+billetesde1k = (cantidaddedinero)
+print(billetesde1k, "billete(s) de mil")
+if cantidaddedinero>=2:
+    billetesde2k= (cantidaddedinero%2)+(cantidaddedinero//2)
+    print(billetesde2k, "billete(s) de 2 mil")
+if cantidaddedinero>=5:
+    billetesde5k=(cantidaddedinero%5)+(cantidaddedinero//5)
+    print(billetesde5k, "billete(s) de 5 mil")
+if cantidaddedinero>=10:
+    billetesde10k=(cantidaddedinero%10)+(cantidaddedinero//10)
+    print(billetesde10k, "billete(s) de 10 mil")
+if cantidaddedinero>=20:
+    billetesde20k=(cantidaddedinero%20)+(cantidaddedinero//20)
+    print(billetesde20k, "billete(s) de 20 mil")
+if cantidaddedinero>=50:
+    billetesde50k=(cantidaddedinero%50)+(cantidaddedinero//50)
+    print(billetesde50k, "billete(s) de 50 mil")
+if cantidaddedinero>=100:
+    billetesde100k=(cantidaddedinero%100)+(cantidaddedinero//100)
+    print(billetesde100k, "billete(s) de 100 mil")
+
+ 
+  
