@@ -4,5 +4,5 @@ n3=float(input("ingrese nota 3 ")) * 0.15
 n4=float(input("ingrese nota 4 ")) * 0.3
 n5=float(input("ingrese nota 5 ")) * 0.2
 nf=n1+n2+n3+n4+n5
-print("nota final= ")
-print(nf)
+print("nota final=", nf)
+
