@@ -1,8 +1,7 @@
 segundos = int(input("ingrese una cantidad de segundos "))
 hora = 3600
 cantidadhoras = (segundos/hora)
-print(segundos)
-print("segundos")
+print(segundos , "segundos")
 print("equivalen a")
-print(cantidadhoras)
-print("horas")
+print(cantidadhoras , "hora(s)")
+
