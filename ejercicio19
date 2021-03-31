@@ -1,0 +1,16 @@
+segundos = int(input("ingrese una cantidad de segundos "))
+minuto = 60
+hora = 3600
+minutosporhora = 60
+cantidadhoras = (segundos/hora)
+cantidadminutos = (segundos/minuto)
+contadorhoras=int(cantidadhoras)
+aminutos=int(cantidadminutos//1)
+bminutos=(cantidadminutos-aminutos)
+contadorminutos=int(bminutos*60)
+asegundos=int(segundos//1)
+bsegundos=(segundos-asegundos)
+contadorsegundos=int(bminutos*60)
+print(segundos , "segundos")
+print("equivalen a")
+print(contadorhoras,":",contadorminutos,":",contadorsegundos)
