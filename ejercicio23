@@ -1,0 +1,9 @@
+numero=int(input("ingrese un numero entero "))
+if numero==0:
+    print("el numero es 0")
+else:
+    if numero>0:
+        print("es positivo")
+    else:
+        print("es negativo")
+
