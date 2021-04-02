@@ -1,0 +1,7 @@
+preciosiniva=int(input("ingrese el valor sin IVA "))
+if preciosiniva>=150000:
+    descuento=preciosiniva*0.5
+    preciosiniva=preciosiniva-descuento
+iva=preciosiniva*0.19
+print(iva)
+# se tiene en cuenta que este descuento del 5% se agrega al valor del producto sin iva
