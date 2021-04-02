@@ -1,0 +1,11 @@
+numero=int(input("ingrese un numero entero "))
+x=numero%2
+if x==0:
+    d1="par"
+else:
+    d1="impar"
+if numero>=0:
+        d2="positivo"
+else:
+        d2="negativo "
+print(d1,"-",d2)
