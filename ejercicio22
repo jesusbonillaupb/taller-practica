@@ -1,0 +1,6 @@
+numero=int(input("ingrese un numero entero "))
+x=numero%2
+if x==0:
+    print("es par")
+else:
+    print("no es par")
