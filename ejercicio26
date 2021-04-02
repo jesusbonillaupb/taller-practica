@@ -1,0 +1,6 @@
+numero=int(input("ingrese un numero entero "))
+if numero>=10:
+    x=numero*3
+else:
+    x=numero/4
+print(x)
