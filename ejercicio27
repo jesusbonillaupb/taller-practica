@@ -1,0 +1,20 @@
+n1=float(input("ingrese nota 1 ")) * 0.15
+n2=float(input("ingrese nota 2 ")) * 0.2
+n3=float(input("ingrese nota 3 ")) * 0.15
+n4=float(input("ingrese nota 4 ")) * 0.3
+n5=float(input("ingrese nota 5 ")) * 0.2
+nf=n1+n2+n3+n4+n5
+print("nota final=", nf)
+if nf<2.0:
+    print("no se puede habilitar")
+else:
+    if nf<3.0:
+        print("reprobo")
+    else:
+        if nf>4.5:
+            print("fecilicitaciones")
+        else:
+            if nf>=3:
+                print("aprobo")
+#cabe aclarar que 4.5 no alcanza para dar las felicitaciones
+#debido a que piden que solo se diga cuando la nota es mayor a 4.5
