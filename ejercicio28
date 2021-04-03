@@ -1,0 +1,6 @@
+a=int(input("escriba el primer numero "))
+b=int(input("escriba el segundo numero "))
+if a>b:
+  print(a,"mayor que", b)
+else:
+  print(b,"mayor que", a)
