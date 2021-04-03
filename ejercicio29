@@ -1,0 +1,4 @@
+n=int(input("Ingrese numero entero "))
+d=float(n)
+print("numero en decimal=",d)
+# las instrucciones estan muy ambiguas no estoy seguro si se referian a esto
