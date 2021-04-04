@@ -1,0 +1,15 @@
+a = float(input("ingrese valor de a "))
+b = float(input("ingrese valor de b "))
+c = float(input("ingrese valor de c "))
+d = (b**2)-(4*a*c)
+if d < 0:
+    print("no tiene soluciones reales")
+elif d == 0:
+    x = -b/(2*a)
+    print("su unica solucion es x=", x)
+else:
+    x1 = (-b + (d ** 0.5)) / (2 * a)
+    x2 = (-b - (d ** 0.5)) / (2 * a)
+    print("tiene 2 soluciones reales")
+    print("x1=", x1)
+    print("x2=", x2)
