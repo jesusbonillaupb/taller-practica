@@ -1,0 +1,9 @@
+u1=str(input("defina su nombre de usuario "))
+c1=str(input("defina su contraseña "))
+print("usuario y contraseña guardas ")
+u2=str(input("ingrese su usuario "))
+c2=str(input("ingrese su contraseña "))
+if u1==u2 and c1==c2:
+    print("sesion iniciada con exito")
+else:
+    print("contraseña y/o usuario incorrecta")
