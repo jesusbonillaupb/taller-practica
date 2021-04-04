@@ -1,0 +1,11 @@
+a=int(input("ingrese el primer numero "))
+b=int(input("ingrese el segundo numero "))
+c=int(input("ingrese el tercer numero "))
+suma=a+b
+if suma==c:
+    print(a,"+",b,"es igual a", c)
+else:
+    if suma>c:
+        print(a,"+",b,"es mayor a", c)
+    else:
+        print(a, "+", b, "es menor a", c)
