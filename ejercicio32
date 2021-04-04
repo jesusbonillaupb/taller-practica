@@ -1,0 +1,9 @@
+d=int(input("ingrese la distancia a recorrer "))
+e=int(input("ingrese la cantidad de dias de estancia "))
+valor=5000*d
+if d>1000 and e>7:
+    desc=valor*0.15
+    valor=valor-desc
+if valor<100000:
+    valor=100000
+print("valor del pasaje=",valor)
