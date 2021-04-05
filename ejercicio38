@@ -1,0 +1,10 @@
+n1=int(input("ingrese primer numero "))
+n2=int(input("ingrese segundo numero "))
+n3=int(input("ingrese tercer numero "))
+if not (n1<n2<n3 or  n1>n2>n3):
+    print("ni se incrementa ni se disminuye")
+if n1<n2<n3:
+    print(n1,n2,n3,"esta incrementando")
+
+if n1>n2>n3:
+    print(n1,n2,n3,"esta disminuyendo")
