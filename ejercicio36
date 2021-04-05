@@ -1,0 +1,27 @@
+numero=int(input("escriba un numero entre 0 y 10 "))
+if numero <0:
+    print("numero invalido")
+if numero >10:
+    print("numero invalido")
+if numero ==0:
+    print("cero")
+if numero == 1:
+    print("uno")
+if numero ==2:
+    print("dos")
+if numero ==3:
+    print("tres")
+if numero ==4:
+    print("cuatro")
+if numero ==5:
+    print("cinco")
+if numero ==6:
+    print("seis")
+if numero ==7:
+    print("siete")
+if numero ==8:
+    print("ocho")
+if numero ==9:
+    print("nueve")
+if numero ==10:
+    print("diez")
