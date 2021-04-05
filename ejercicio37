@@ -1,0 +1,10 @@
+num = int(input("ingrese un numero entero menor a 100.000: "))
+cont = 1
+num1=num
+if num>=100000:
+    print("numero invalido")
+else:
+    while (num >= 10):
+        num = num/10
+        cont += 1
+    print(num1, "tiene", cont, "digito(s)")
