@@ -1,0 +1,9 @@
+a=int(input("ingrese el primer numero "))
+b=int(input("ingrese el segundo numero "))
+c=int(input("ingrese el tercer numero "))
+if a==b==c:
+    print("los 3 numeros son iguales")
+elif a==b or a==c or b==c:
+    print("hay 2 numeros iguales")
+else:
+    print("los 3 numeros son diferentes")
