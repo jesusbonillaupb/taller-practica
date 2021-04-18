@@ -1,0 +1,3 @@
+n=int(input("ingrese el numero hasta que quiera contar "))
+for i in range(1,n+1,1):
+    print(i)
