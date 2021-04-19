@@ -1,0 +1,17 @@
+n=int(input("ingrese la cantidad de numeros que desea sumar "))
+sumpares=0
+sumimpares=0
+ci=0
+cp=0
+for n in range(1, n+1):
+    num=int(input("ingrese un numero "))
+    if num%2==0:
+        sumpares=sumpares+num
+        cp = cp + 1
+    else:
+        sumimpares=sumimpares+num
+        ci = ci + 1
+ppares=sumpares/cp
+pimpares=sumimpares/ci
+print("la suma de los pares es=",sumpares,"y","el promedio",ppares)
+print("la suma de los impares es=",sumimpares,"y","el promedio",pimpares)
