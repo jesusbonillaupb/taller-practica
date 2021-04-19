@@ -8,7 +8,7 @@ n6=int(input("escriba otro numero="))
 n7=int(input("escriba otro numero="))
 n8=int(input("escriba otro numero="))
 n9=int(input("escriba otro numero="))
-n10=int(input("escriba otro numero="))
+n10=int(input("escriba ultimo numero="))
 s=n1+n2+n3+n4+n5+n6+n7+n8+n9+n10
 p=s/10
 print("suma=",s)
