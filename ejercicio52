@@ -1,10 +1,1 @@
-while True:
-    num = float(input("ingrese un numero entero positivo "))
-    entero = num // 1
-    comp = num / entero
-    if num>=0 and comp==1:
-        numentero=int(num)
-        break
-    else:
-        print("valor invalido")
-print("numero valido=",numentero)
+
