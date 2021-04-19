@@ -1,0 +1,10 @@
+n=int(input("ingrese el numero en que inicia la secuencia "))
+m=int(input("ingrese el numero en que fin la secuencia "))
+if m>n:
+    s=0
+    for i in range (n,m+1, 1):
+        s=s+i
+
+    print("suma total=",s)
+else:
+    print("el numero de inicio es mayor o igual a el numero final")
